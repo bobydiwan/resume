@@ -1,0 +1,460 @@
+body {
+    margin: 0px;
+	font-family: sans-serif;
+	padding: 0px;
+}
+	
+	#body-header{
+	background-image: url(https://source.unsplash.com/user/erondu/1600x900);
+	background-size: cover;
+	height: 65vh;
+	opacity: 0.85;
+	background-position: center;
+	position: relative;
+	background-attachment: fixed;
+	
+	}
+	.menu-container{
+		
+		float:right;
+    
+	}
+	.icon-container{
+		width: 100%;
+		height: 1rem;
+		margin-bottom: .8rem;
+	}
+	.go-right{
+		float: right;
+		margin-top: 1rem;
+		margin-right: .8rem;
+	}
+	.menu-item-lis{
+		list-style: none;
+		background-color: grey;
+		padding: .6rem;
+		
+		box-shadow: 0px 0px 5px 4px grey;
+	}
+	#dropdown{
+		display: none;
+	}
+	#list-contanier{
+		width: 100%;
+		height: auto;
+		display: none;
+		margin-top: 2rem;
+		
+	}
+	.color-white{
+		color: white;
+	}
+	.menu-item-lis a{
+		color: white;
+		text-decoration: none;
+	}
+	.horizontal-list{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	}
+	.horizontal-list li{
+	display: inline-block;
+	margin: 0px 8px ;
+	font-weight: 100;
+	font-size: 0.9rem;
+	}
+	.horizontal-list  a{
+	color: white;
+		text-decoration: none;
+		transition:color 0.1s;
+	}
+	
+	#nav li a:hover{
+	color: lightgrey;
+		border-bottom: 1px solid white;
+	
+	}
+	.text-center{
+	text-align: center;
+	
+	}
+	#name-social-container{
+		margin-bottom: 8rem;
+		margin-top: 10%;
+		min-width: 15rem;
+	}
+	#social-cantainer li{
+	display: inline-block;
+	margin: 0px 8px ;
+	}
+	
+	#text-name{
+		font-size: 3rem;
+		letter-spacing: 0.1rem;
+		color: white;
+		margin-bottom: .5rem;
+		font-weight: 700;
+		
+	}
+	.social-icon li a i{
+		padding: 10px;
+		font-size: 1rem;
+		border-radius: 50%;
+	}
+	.social-icon li a i:hover{
+	box-shadow: 0px 0px 5px 4px rgba(230, 196, 196, .2);
+	}
+	#about img{
+	   
+		border: 2px solid lightgrey;
+		border-radius: 50%;
+		height: 20vw;
+
+		width: 20vw;
+		min-width: 10rem;
+		min-height: 10rem;
+		  }
+		  #about img:hover{
+			box-shadow: 0px 0px 5px 4px lightgrey;
+		  } 
+	#about{
+		position: relative;
+		margin-top: -17vh;
+	   }
+	   
+	   #about p mark{
+		   background-color: white;
+		   color: #2857a4;
+	   }
+	   section{
+		   width: 100%;
+		   height: auto;
+		   min-width: 15rem;
+		   display: flex;
+		   flex-direction: column;
+		   align-items: center;
+		   
+	   }
+	   section:nth-child(2n){
+		   background-color: #efefef;
+	   }
+	/* below rule is to select color for all even section. it is commented because it cause problem at first section*/
+	   /* section:nth-child(2n+1){
+		background-color: red;
+	}
+	 */
+	 .section-heading{
+		 width: auto;
+		 padding: 20px 10px 10px;
+		 
+		 font-weight: 400;
+	 }
+	 .section-heading span{
+		 font-size: 40px;
+		 display:inline-block;
+		 padding-top: 10px;
+		 margin-right: 0.5rem;
+		 color: #2857a4;
+	 }
+	 #about-para {
+        padding: 10px;
+        width: 70%;
+        text-align: justify;
+        color: grey;
+        line-height: 28px;
+        font-size:1.4rem;
+        margin: auto;
+	}
+	/* Skill Section */
+    
+	 .skills-display{
+		 width: 70%;
+		height: auto;
+	     flex-direction: row;
+		 display: flex;
+		 flex-wrap: wrap;
+		 justify-content: space-around;
+		 align-items: center;
+	 }
+	 .skill-progress{
+		 height: auto;
+		 width: 10rem;
+		 
+		 border-radius: 1.2rem;
+		 background-color:#d3d3d3;
+		 margin: 2rem;
+		
+	 }
+	 .percentage{
+		 
+		 height: inherit;
+		 border-radius: .8rem;
+		 border-bottom-right-radius: 0px;
+		 border-top-right-radius: 0px;
+		 display: flex;
+	 }
+	 .skill-name{
+		 color: white;
+		 font-size: 1rem;
+		 margin: .5rem;
+		 
+	 }
+	 #Cplus  div{
+		 width: 75%;
+		 background-color: #2857a4; box-shadow: 1px 1px 4px 1px #a1a18f;
+	 }
+	 
+	 #HTML  div{
+	   width:10%;
+	   background-color: #ec4d1c; box-shadow: 1px 1px 4px 1px #a1a18f;
+	}
+	
+	 #CSS  div{
+		 width: 50%;
+		 background-color: #93738c; box-shadow: 1px 1px 4px 1px #a1a18f;
+	}
+	 #javascript  div{
+		 width: 70%;
+		 background-color: #0b8176; box-shadow: 1px 1px 4px 1px #a1a18f;
+	}
+	 #NodeJs  div{
+		 width: 70%;
+		 background-color: #2857a4;
+		 box-shadow: 1px 1px 4px 1px #a1a18f;
+		}
+	 #MongoDB  div{
+		 width: 75%;
+		 background-color: #93738c;
+		 box-shadow: 1px 1px 4px 1px #a1a18f;
+	}
+	/* Experence Section */
+	
+      
+
+
+	.timeline{
+		width: 75%;
+		height: auto;
+		position: relative;
+	}
+ 
+	.timeline-block{
+		width: 40%;
+		
+		min-height: 150px;
+		margin: 10px;
+		left: 2%;
+		position: relative;
+		
+	}
+     .timeline-block:nth-child(2n+1){
+		 left: 54%;
+	 }
+	 .track{
+		 position: absolute;
+		 top: 5%;
+		 left: 50%;
+		 height: 80%;
+		 width: 1px;
+		 margin-top: 15px;
+		 margin-bottom: 6%;
+		 border: none;
+		 border-right: 4px dashed #94d3fd;
+	 }
+	 .plane{
+		 color: #2857a4;
+		 transform: rotate(90deg);
+		 position: sticky;
+		 top:50px;
+		 margin-top: -17px;
+	 }
+	 .logo-company-designation-contanier{
+		 width: 100%;
+		 height: 3rem;
+	 }
+      .Designation{
+		color:#2857a4;
+		margin: 2px;
+	}
+	.Designation::after{
+		content: '';
+		background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000030_1550710829_ninjasicon.png);
+		display: inline-block;
+	    
+		width: 2rem;
+		height: 2rem;
+		position: absolute;
+		left:0px;
+		background-size: contain;
+  }
+	  .company-name{
+		  color: #ee822d;
+		  margin-bottom: 0px;
+		  font-size: 1.2rem;
+		  margin-top: 0px;
+		  
+	  }
+	  .direction-rtl{
+		  direction: rtl;
+	  }
+      .month-year{
+		  margin-top: 0px;
+		  color: grey;
+		  font-size: 1rem;
+	  }
+	  /* PortFolio Section */
+    .portfolio{
+		width: 80%;
+		height: auto;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.portfolio div{
+		height: 15rem;
+		width: 17rem;
+		background-size: contain;
+		margin: 2rem;
+        
+	}
+	.mb-75{
+		margin-bottom: 75px;
+	}
+	#portfolio-1{
+		background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png);
+	}
+	#portfolio-2{
+		background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png);
+		
+	}
+	#portfolio-3{
+		background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png);
+		
+	}
+	#portfolio-4{
+		background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png);
+	}
+	#portfolio-5{
+		background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png);
+	}
+	#portfolio-6{
+		background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png);
+	}
+	.para-portfolio{
+		color: white;
+		font-size: 1.4rem;
+	}
+	.para-portfolio:hover{
+		visibility: visible;
+	}
+	#portfolio-1:hover{
+		background-color: lightgrey ;
+		box-shadow: 1px 1px 5px 2px #bbd7e4;
+		transition: .8s;
+	}
+	#portfolio-2:hover{
+		background-color: lightgrey ;
+		box-shadow: 1px 1px 5px 2px #bbd7e4;
+		transition: .8s;
+	}
+	#portfolio-3:hover{
+		background-color: lightgrey ;
+		box-shadow: 1px 1px 5px 2px #bbd7e4;
+		transition: .8s;
+	}
+	#portfolio-4:hover{
+		background-color: lightgrey ;
+		box-shadow: 1px 1px 5px 2px #bbd7e4;
+		transition: .8s;
+	}
+	#portfolio-5:hover{
+		background-color: lightgrey ;
+		box-shadow: 1px 1px 5px 2px #bbd7e4;
+		transition: .8s;
+	}
+	#portfolio-6:hover{
+		background-color: lightgrey ;
+		box-shadow: 1px 1px 5px 2px #bbd7e4;
+		transition: .8s;
+	}
+
+	/* Contact Section */
+
+
+
+ /* Message-Address Contanier */
+	#contact{
+		width: 100%;
+		height: auto; 
+		  
+		background-image: linear-gradient(To right,#2857a4,#403066); 
+	   }
+			 .message-address{
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: center;
+	}
+	.block-flex{
+		min-width: 10rem;
+		min-height: 10rem;
+		height: auto;
+		width: 40%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-content: center;
+	}
+	.input-msg{
+		height: 3rem;
+		font-size: 1rem;
+		width: 80%;
+		border: 0px;
+		border-bottom:2px solid white;
+		background-color: inherit;
+		min-width: 15rem;
+	}
+    .button-Submit{
+		width: 10rem;
+		background-color: inherit;
+		color: white;
+		height: 2.5rem;
+		text-align: center;
+		font-size: .8rem;
+		border:2px solid white;
+		font-family: sans-serif;
+		
+	}
+	.block-flex-child{
+		min-width: 10rem;
+		min-height: 10rem;
+		height: auto;
+		width: 40%;
+	}
+#form-msg{
+	display: flex;
+	
+	align-items: center;
+	justify-content: space-between;
+	flex-flow: column wrap;
+}
+  
+			 
+			 #address *{
+				 color: white;
+				 margin: 2px;
+				 font-style: sans-serif;
+			 }
+			 #address p{
+			   font-family: sans-serif;
+			   font-size: .9rem;
+			 }
+			 #address h5{
+				 font-family: sans-serif;
+			 }
+    
