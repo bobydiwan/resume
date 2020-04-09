@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nitish Yadav</title>
+    <link rel="stylesheet" type="text/css" href="resume-style.css">
+    <!-- font awesome link - to get icons -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ,minimum-scale=1">
+    <style>
+        @media screen and (max-width: 768px) {
+            .timeline-block {
+                width: 80%;
+                left: 20%;
+            }
+
+            .timeline-block:nth-child(2n+1) {
+                left: 20%;
+            }
+
+            .track {
+                left: 10%;
+            }
+            html{
+                font-size: 20px;
+            }
+        }
+        @media screen and (max-width: 568px){
+            
+            #nav{
+                width: 0px;
+                height: 0px;
+                overflow: hidden;
+            }
+           #dropdown {
+                 display: block;
+        }
+        #dropdown:hover #list-contanier {
+            
+  display: block;
+}
+        }  
+        #dropdown{
+            position: relative;
+            margin-left: 85%;
+            margin-right: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="body-header">
+        <nav id="dropdown">
+            <div class="menu-container">    
+                <div class="icon-container color-white">        
+                <i class="fas fa-bars go-right"></i>
+            </div>
+            <div id="list-contanier">
+            <ul class="menu-item-lis ">
+                <li> <a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Experience</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+             </ul>
+            </div>
+            </div>
+            </nav>
+        <nav id="nav">
+            <ul class="horizontal-list text-center">
+                <li> <a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Experience</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div id="name-social-container">
+            <div class="text-center">
+                <h1 id="text-name">Nitish Yadav</h1>
+            </div>
+            <div id="social-cantainer" class>
+                <ul class="horizontal-list text-center social-icon">
+                    <li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li><a href=""><i class="fa fa-stack-overflow" aria-hidden="true"></i></a></li>
+                    <li><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                    <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href=""><i class="fa fa-quora" aria-hidden="true"></i></a></li>
+
+                </ul>
+            </div>
+        </div>
+
+    </header>
+    <main>
+
+        <section id="about">
+            <div class="text-center">
+
+                <img class="text-center" src="https://scontent.fpat1-1.fna.fbcdn.net/v/t1.0-9/s960x960/77133911_2586396651588520_511198814435016704_o.jpg?_nc_cat=110&_nc_sid=85a577&_nc_ohc=Ivzgz9n-NcwAX_2b4k0&_nc_ht=scontent.fpat1-1.fna&_nc_tp=7&oh=b21c2a2e941c86dce76c2be90eb6ef06&oe=5EB4D8D9">
+            </div>
+            <div>
+                <p id="about-para">Lorem ipsum dolor <mark>amet, consectetur adipisicing elit.</mark> Officiis quos unde
+                    a perferendis vitae <mark> excepturi iste esse.</mark> Porro tempora voluptatibus, inventore ducimus
+                    veritatis magnam eos eius earum quam illo eaque!</p>
+            </div>
+        </section>
+
+        <section id="skills" class="mb-75">
+
+            <h1 class="section-heading">
+                <span><i class="fa fa-chalkboard-teacher" aria-hidden="true"></i></span>
+                <span>SKILLS</span>
+            </h1>
+            <div class="skills-display">
+                <div class="skill-progress" id="Cplus">
+                    <div class="percentage text-center">
+                        <span class="skill-name">C++</span>
+                    </div>
+                </div>
+
+                <div class="skill-progress" id="HTML">
+                    <div class="percentage">
+                        <span class="skill-name">HTML</span>
+                    </div>
+                </div>
+
+                <div class="skill-progress" id="CSS">
+                    <div class="percentage">
+                        <span class="skill-name">CSS</span>
+                    </div>
+                </div>
+
+                <div class="skill-progress" id="javascript">
+                    <div class="percentage">
+                        <span class="skill-name">javascript</span>
+                    </div>
+                </div>
+
+                <div class="skill-progress" id="NodeJs">
+                    <div class="percentage">
+                        <span class="skill-name">NodeJs</span>
+                    </div>
+                </div>
+                <div class="skill-progress" id="MongoDB">
+                    <div class="percentage">
+                        <span class="skill-name">MongoDB</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="experience">
+            <h1 class="section-heading">
+                <span><i class="fa fa-briefcase"></i></span>
+
+                <span>Work Experience</span>
+            </h1>
+            <div class="timeline">
+
+
+                <div class="timeline-block ">
+                    <div>
+                        <div class="after-logo ">
+
+                            <h5 class="Designation direction-rtl">Designation</h5>
+                        </div>
+                        <div>
+                            <p class="company-name direction-rtl">Company Name</p>
+
+                            <p class="month-year direction-rtl">Month YYYY-Month YYYY</p>
+                        </div>
+                    </div>
+                    <p class="month-year direction-rtl" style="direction: ltr;">Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Et tempora totam repellendus, pariatur voluptate reiciendis ipsum nobis quia
+                        quidem, molestiae quis voluptatem nisi officiis voluptas dolores doloremque. Commodi, eos ab?
+                    </p>
+                </div>
+                <div class="timeline-block">
+                    <div>
+                        <div class="after-logo ">
+
+                            <h5 class="Designation direction-rtl">Designation</h5>
+                        </div>
+                        <div>
+                            <p class="company-name direction-rtl">Company Name</p>
+
+                            <p class="month-year direction-rtl">Month YYYY-Month YYYY</p>
+                        </div>
+                    </div>
+                    <p class="month-year direction-rtl" style="direction: ltr;">Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Et tempora totam repellendus, pariatur voluptate reiciendis ipsum nobis quia
+                        quidem, molestiae quis voluptatem nisi officiis voluptas dolores doloremque. Commodi, eos ab?
+                    </p>
+                </div>
+                <div class="timeline-block">
+                    <div>
+                        <div class="after-logo ">
+
+                            <h5 class="Designation direction-rtl">Designation</h5>
+                        </div>
+                        <div>
+                            <p class="company-name direction-rtl">Company Name</p>
+
+                            <p class="month-year direction-rtl">Month YYYY-Month YYYY</p>
+                        </div>
+                    </div>
+                    <p class="month-year direction-rtl" style="direction: ltr;">Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Et tempora totam repellendus, pariatur voluptate reiciendis ipsum nobis quia
+                        quidem, molestiae quis voluptatem nisi officiis voluptas dolores doloremque. Commodi, eos ab?
+                    </p>
+                </div>
+                <div class="timeline-block">
+                    <div>
+                        <div class="after-logo ">
+
+                            <h5 class="Designation direction-rtl">Designation</h5>
+                        </div>
+                        <div>
+                            <p class="company-name direction-rtl">Company Name</p>
+
+                            <p class="month-year direction-rtl">Month YYYY-Month YYYY</p>
+                        </div>
+                    </div>
+                    <p class="month-year direction-rtl" style="direction: ltr;">Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Et tempora totam repellendus, pariatur voluptate reiciendis ipsum nobis quia
+                        quidem, molestiae quis voluptatem nisi officiis voluptas dolores doloremque. Commodi, eos ab?
+                    </p>
+                </div>
+                <div class="track">
+                    <div class="plane">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h1 class="section-heading">
+                <span><i class="fa fa-briefcase"></i></span>
+
+                <span>Education</span>
+            </h1>
+            <div class="timeline">
+
+
+                <div class="timeline-block ">
+                    <div>
+                        <div class="after-logo ">
+
+                            <h5 class="Designation direction-rtl">Degree</h5>
+                        </div>
+                        <div>
+                            <p class="company-name direction-rtl">College Name</p>
+
+                            <p class="month-year direction-rtl">Month YYYY-Month YYYY</p>
+                        </div>
+                    </div>
+                    <p class="month-year direction-rtl" style="direction: ltr;">Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Et tempora totam repellendus, pariatur voluptate reiciendis ipsum nobis quia
+                        quidem, molestiae quis voluptatem nisi officiis voluptas dolores doloremque. Commodi, eos ab?
+                    </p>
+                </div>
+                <div class="timeline-block">
+                    <div>
+                        <div class="after-logo ">
+
+                            <h5 class="Designation direction-rtl">Degree</h5>
+                        </div>
+                        <div>
+                            <p class="company-name direction-rtl">College Name</p>
+
+                            <p class="month-year direction-rtl">Month YYYY-Month YYYY</p>
+                        </div>
+                    </div>
+                    <p class="month-year direction-rtl" style="direction: ltr;">Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Et tempora totam repellendus, pariatur voluptate reiciendis ipsum nobis quia
+                        quidem, molestiae quis voluptatem nisi officiis voluptas dolores doloremque. Commodi, eos ab?
+                    </p>
+                </div>
+                <div class="timeline-block">
+                    <div>
+                        <div class="after-logo ">
+
+                            <h5 class="Designation direction-rtl">Degree</h5>
+                        </div>
+                        <div>
+                            <p class="company-name direction-rtl">College Name</p>
+
+                            <p class="month-year direction-rtl">Month YYYY-Month YYYY</p>
+                        </div>
+                    </div>
+                    <p class="month-year direction-rtl" style="direction: ltr;">Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Et tempora totam repellendus, pariatur voluptate reiciendis ipsum nobis quia
+                        quidem, molestiae quis voluptatem nisi officiis voluptas dolores doloremque. Commodi, eos ab?
+                    </p>
+                </div>
+                <div class="timeline-block">
+                    <div>
+                        <div class="after-logo ">
+
+                            <h5 class="Designation direction-rtl">Degree</h5>
+                        </div>
+                        <div>
+                            <p class="company-name direction-rtl">College Name</p>
+
+                            <p class="month-year direction-rtl">Month YYYY-Month YYYY</p>
+                        </div>
+                    </div>
+                    <p class="month-year direction-rtl" style="direction: ltr;">Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Et tempora totam repellendus, pariatur voluptate reiciendis ipsum nobis quia
+                        quidem, molestiae quis voluptatem nisi officiis voluptas dolores doloremque. Commodi, eos ab?
+                    </p>
+                </div>
+                <div class="track">
+                    <div class="plane">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="portfolio" class="mb-75">
+            <h1 class="section-heading">
+                <span style="color: black;"><i class="fa fa-chalkboard-teacher"></i></span>
+                <span>Portfolio</span>
+            </h1>
+            <div class="portfolio">
+
+                <div id="portfolio-1">
+                </div>
+                <div id="portfolio-2"></div>
+                <div id="portfolio-3"></div>
+                <div id="portfolio-4"></div>
+                <div id="portfolio-5"></div>
+                <div id="portfolio-6"></div>
+            </div>
+
+        </section>
+
+
+
+        <section id="contact">
+            <h1 class="section-heading ">
+                <span style="color: white;"><i class="fa fa-address-card" aria-hidden="true"></i></span>
+                <span style="color: white;">Contact</span>
+            </h1>
+            <div id="message-address-container" class="message-address">
+                <div id="message-for" class="block-flex">
+                    <form action="" id="form-msg" class="block-flex-child">
+                        <input type="text" class="input-msg" placeholder="Your Name" name="name">
+                        <input type="email" class="input-msg" placeholder="Your Email" name="email">
+                        <textarea name="message" class="input-msg" id="" cols="30" rows="3"
+                            placeholder="Message"></textarea>
+                        <button type="submit" class="button-Submit">
+                            SUBMIT MESSAGE
+                        </button>
+                    </form>
+                </div>
+                <div id="address" class="block-flex">
+                    <section class="block-flex-child">
+                        <h5>Get in Touch</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            <br>
+                            <h5>My Address</h2>
+
+                                <address>
+                                    <p><i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        Varanasi,UP </p>
+                                    <p><i class="fa fa-phone-square"></i>
+                                        +917985947776
+                                    </p>
+                                    <p>
+                                        <i class="fa fa-envelope"></i> nitishyadav169@gmail.com
+                                    </p>
+                                </address>
+                    </section>
+
+                </div>
+            </div>
+            <div id="social-cantainer" class="mb-75">
+                <ul class="horizontal-list text-center social-icon">
+                    <li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li><a href=""><i class="fa fa-stack-overflow" aria-hidden="true"></i></a></li>
+                    <li><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                    <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href=""><i class="fa fa-quora" aria-hidden="true"></i></a></li>
+
+                </ul>
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
